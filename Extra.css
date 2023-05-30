@@ -1,18 +1,24 @@
+header {
+    position: fixed;
+    width: 100%;
+    height: 200px;
+    top: 0;
+}
+
 html {
-    max-width: 960px;
+    max-width: 100%;
+    width: 100%;
     display: table;
-    margin-right:auto;
-    margin-left:auto;
-    margin-top: 40px;
+    margin:auto;
+    margin-top: 0px;
     margin-bottom: 40px;
-    background:repeating-linear-gradient(90deg, green, green 20%, white 20%, white 40%);
+    background:white;
 }
 
 body {
-    margin:0px;
-    padding:0px;
-    width: 960px;
-    border: 20px solid black;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
     background-color: white;
     display: table-cell;
 }
@@ -20,9 +26,9 @@ body {
 .titelSite {
     width: auto;
     height: 20%;
-    border: 10px solid darkslategray;
     margin:0;
     padding:0;
+    background-color: white;
 }
 
 .titel1 {
@@ -38,15 +44,13 @@ body {
 .paginas {
     display: flex;
     justify-content: space-evenly;
-    border: 8px solid darkgray;
-    background-color: lightgray;
-    background: repeating-linear-gradient(0deg, green,green 20%, white 20%, white 40%);
+    border: 8px solid lightgreen;
+    background-color: green;
+    background: repeating-linear-gradient(0deg, green, green 20%, white 20%, white 40%);
 }
 
 .pagina {
     padding: 2% 2%;
-    border-radius: 5px;
-    border-width: 5px;
     text-align: center;
     font-weight: 1000;
     font-family: sans-serif;
@@ -54,15 +58,15 @@ body {
 }
 
 .pagina3 {
-    background-color: green;
+    background-color: greenyellow;
 }
 
-.paginaonderwerpen {
-    display: flex;
-    justify-content: space-evenly;
-    border: 8px solid darkgreen;
-    background-color: green;
-    background: repeating-linear-gradient(90deg, white, white 5px, green 5px, green 10px);
+main {
+    margin:0;
+    margin-top: 220px;
+    padding:0;
+    width: auto;
+    background-color: greenyellow;
 }
 
 .postNumber {
@@ -82,14 +86,6 @@ body {
 
 .postText {
     text-align: left;
-}
-
-main {
-    margin:0;
-    padding:0;
-    width: auto;
-    border: 10px dashed green;
-    background-color: white;
 }
 
 .datumpost {
