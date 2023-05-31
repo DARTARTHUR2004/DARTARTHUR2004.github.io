@@ -68,12 +68,12 @@ body {
     border: 8px solid blue;
     background-color: white;
     background: repeating-linear-gradient(90deg, white, white 5px, blue 5px, blue 10px);
-    height: 60px;
+    height: 80px;
 }
 
 main {
     margin:0;
-    margin-top: 295px;
+    margin-top: 395px;
     padding:0;
     width: auto;
     background-color: cyan;
